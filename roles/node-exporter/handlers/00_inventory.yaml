@@ -1,0 +1,9 @@
+all:
+  children:
+    monitor:
+      hosts:
+        192.168.56.103
+    others:
+      hosts:
+        192.168.56.104:
+        192.168.56.114:
